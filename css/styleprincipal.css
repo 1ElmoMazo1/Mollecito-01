@@ -6,6 +6,10 @@
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
 }
+body{
+    background: #008145;
+    background-color: aqua;
+}
 header{
     width: 100%;
     position: fixed;
