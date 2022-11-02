@@ -25,15 +25,22 @@
             </div>
             <p>o</p>
             <form class="inputs-container">
-                <input class="input" type="text" placeholder="Usuario">
-                <input class="input" type="text" placeholder="Contraseña">
+                <?php
+                include("modelo/conexion_bd.php");
+                include("controlador/controlador_registrar_usuario.php");
+                ?>
+                <input class="input" name="nombre" type="text" placeholder="Nombres" >
+                <input class="input" name="apellido" type="text" placeholder="Apellidos" >
+                <input class="input" name="clave" type="password" placeholder="Contraseña" >
                 
-                <a href="principal.html"><input type="button" class="btn" value="Ingresar     "></a>
+                <input type="submit" name="registro" class="btn" value="Ingresar     ">
+                
                 <p>Ingresar como ADMIN <span class="span">Ingresar</span></p>
             </form>
           </div>
             <img class="image-container" src="img/mollelogo.jpeg" alt="">
       </div>
+
 
 </body>
 </html>
