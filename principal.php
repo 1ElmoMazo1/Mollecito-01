@@ -21,7 +21,7 @@
                 </label>              
                 <nav>
                     <ul>
-                        <li><a href="principal.html" id="selected"></a></li>
+                        <li><a href="principal.php" id="selected"></a></li>
                         <br>
                         <br>
                         <li><a href="#">Servicio</a>
@@ -49,7 +49,7 @@
        
     
 
-   <iframe src="body.html" frameborder="1" width="100%" height="100%"></iframe>
+   <iframe src="body.php" frameborder="1" width="100%" height="100%"></iframe>
         
     </body>
     

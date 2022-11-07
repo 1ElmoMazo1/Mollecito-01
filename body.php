@@ -21,9 +21,9 @@
                 <div class="card">
                     <img src="img/plato01.jpg" alt="">
                     <h4>Platos de entrada</h4>
-                    <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-                    <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-                    <a href="#" class="btn">VER CATALAGO</a>                    
+                    <p><h3>El aperitivo es la comida ligera que se toma para abrir el apetito, antes de la comida principal del mediodía o antes de la cena</h3></p>
+                    
+                    <a href="carta/platodeentrada.html" class="btn">VER CATALAGO</a>                    
                 </div>
                 <div class="card">
                     <img src="img/plato02.jpg" alt="">
