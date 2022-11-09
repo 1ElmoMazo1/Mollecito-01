@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,6 +10,20 @@
         <title></title>
     </head>
     <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
         <br>
         <br>
         <br>
@@ -23,7 +39,7 @@
                     <h4>Platos de entrada</h4>
                     <p><h3>El aperitivo es la comida ligera que se toma para abrir el apetito, antes de la comida principal del mediodía o antes de la cena</h3></p>
                     
-                    <a href="carta/platodeentrada.html" class="btn">VER CATALAGO</a>                    
+                    <a href="carta/platodeentrada.php" class="btn">VER CATALAGO</a>                    
                 </div>
                 <div class="card">
                     <img src="img/plato02.jpg" alt="">

@@ -27,16 +27,16 @@
                         <li><a href="#">Servicio</a>
                             <ul>
 
-                                <li><a href="carta/platodeentrada.html">Entradas</a></li>
-                                <li><a href="carta/especialidaddelacasa.html">Especialidades de la casa</a></li>
-                                <li><a href="carta/platoalacarta.html">Platos a la carta</a></li>
-                                <li><a href="carta/caldos.html">Caldos</a></li>
-                                <li><a href="carta/bebidas.html">Bebidas</a></li>
+                                <li><a href="carta/platodeentrada.php">Entradas</a></li>
+                                <li><a href="carta/especialidaddelacasa.php">Especialidades de la casa</a></li>
+                                <li><a href="carta/platoalacarta.php">Platos a la carta</a></li>
+                                <li><a href="carta/caldos.php">Caldos</a></li>
+                                <li><a href="carta/bebidas.php">Bebidas</a></li>
                                 <li><a href="carta/postres.html">Postres</a></li>
 
                             </ul>
                         </li>
-                        <li><a href="#">PEDIDO</a></li>
+                        <li><a href="pedido/pedido.php">PEDIDO</a></li>
                         <li><a href="#">Favoritos</a></li>
                         <li><a href="#">Sugerencias</a></li>
                         <li><a href="#">Contactos</a></li>
