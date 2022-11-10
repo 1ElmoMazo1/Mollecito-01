@@ -9,6 +9,7 @@
         <title>"El Mollecito"</title>
         <link rel="stylesheet" href="css/styleprincipal.css">
         <link rel="stylesheet" href="css/cardstyle.css">
+        <link rel="stylesheet" href="css/bodystyle.css">
     </head>
     <body>
        
@@ -46,10 +47,105 @@
             </div>
         </div>
         </header>
+        <br>
+        <br>
+        <br>
+        <br>
        
     
 
-   <iframe src="body.php" frameborder="1" width="100%" height="100%"></iframe>
+        <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<div class="container">
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="row">
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+        <div class="card">
+            <img src="img/plato01.jpg" alt="">
+            <h4>Platos de entrada</h4>
+            <p><h3>El aperitivo es la comida ligera que se toma para abrir el apetito, antes de la comida principal del mediodía o antes de la cena</h3></p>
+            
+            <a href="carta/platodeentrada.php" class="btn">VER CATALAGO</a>                    
+        </div>
+        <div class="card">
+            <img src="img/plato02.jpg" alt="">
+            <h4>Especialidades de la casa</h4>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <a href="#" class="btn">VER CATALAGO</a>                    
+        </div>
+        <div class="card">
+            <img src="img/plato03.jpg" alt="">
+            <h4>Platos a la carta</h4>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <a href="#" class="btn">VER CATALAGO</a>                    
+        </div>
+        <div class="card">
+            <img src="img/plato03.jpg" alt="">
+            <h4>Caldos</h4>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <a href="#" class="btn">VER CATALAGO</a>                    
+        </div>
+        <div class="card">
+            <img src="img/plato03.jpg" alt="">
+            <h4>Bebidas</h4>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <a href="carta/bebidas.html" class="btn">VER CATALAGO</a>                    
+        </div>
+        <div class="card">
+            <img src="img/plato03.jpg" alt="">
+            <h4>Postres</h4>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
+            <a href="#" class="btn">VER CATALAGO</a>                    
+        </div>
+        
+        
+    </div>
+</div>
+</body>
         
     </body>
     

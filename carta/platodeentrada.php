@@ -1,8 +1,4 @@
-
 <html>
-
-
-
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -24,7 +20,7 @@
                 </label>              
                 <nav>
                     <ul>
-                        <li><a href="principal.php" id="selected"></a></li>
+                        <li><a href="../principal.php" id="selected"></a></li>
                         <br>
                         <br>
                         <li><a href="#">Servicio</a>
@@ -49,6 +45,7 @@
             </div>
         </div>
         </header>
+	
 
 <frame>
 <?php 
@@ -121,8 +118,8 @@ if(isset($_GET["action"]))
 			<br />
 			<br />
 			<br />
-			
-			<br /><br />
+			<br />
+			<br />
 			<?php
 				$query = "SELECT * FROM tbl_product ORDER BY id ASC";
 				$result = mysqli_query($connect, $query);
