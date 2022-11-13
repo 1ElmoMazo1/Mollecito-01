@@ -55,7 +55,7 @@ if(isset($_GET["action"]))
 <!DOCTYPE html>
 <html>
 	<head>
-		
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -75,18 +75,18 @@ if(isset($_GET["action"]))
 			   </label>              
 			   <nav>
 				   <ul>
-					   <li><a href="principal.php" id="selected"></a></li>
+					   <li><a href="../principal.php" id="selected"></a></li>
 					   <br>
 					   <br>
 					   <li><a href="#">Servicio</a>
 						   <ul>
 
 							   <li><a href="../carta/platodeentrada.php">Entradas</a></li>
-							   <li><a href="carta/especialidaddelacasa.php">Especialidades de la casa</a></li>
-							   <li><a href="carta/platoalacarta.php">Platos a la carta</a></li>
-							   <li><a href="carta/caldos.php">Caldos</a></li>
-							   <li><a href="carta/bebidas.php">Bebidas</a></li>
-							   <li><a href="carta/postres.html">Postres</a></li>
+							   <li><a href="../carta/especialidaddelacasa.php">Especialidades de la casa</a></li>
+							   <li><a href="../carta/platoalacarta.php">Platos a la carta</a></li>
+							   <li><a href="../carta/caldos.php">Caldos</a></li>
+							   <li><a href="../carta/bebidas.php">Bebidas</a></li>
+							   <li><a href="../carta/postres.html">Postres</a></li>
 
 						   </ul>
 					   </li>

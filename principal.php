@@ -13,7 +13,7 @@
     </head>
     <body>
        
-        <header>
+        <header z-index="3">
         <div class="container__menu">
             <div class="menu">
                 <input type="checkbox" id="check__menu">
@@ -47,58 +47,29 @@
             </div>
         </div>
         </header>
-        <br>
-        <br>
-        <br>
-        <br>
-       
-    
-
         <body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
-<br>
+           
+            
 <div class="container">
-    <br>
-    <br>
-    <br>
-    <br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+
+
+            
     <div class="row">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+   
         <div class="card">
             <img src="img/plato01.jpg" alt="">
             <h4>Platos de entrada</h4>
@@ -111,21 +82,21 @@
             <h4>Especialidades de la casa</h4>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-            <a href="#" class="btn">VER CATALAGO</a>                    
+            <a href="carta/especialidaddelacasa.php" class="btn">VER CATALAGO</a>                    
         </div>
         <div class="card">
             <img src="img/plato03.jpg" alt="">
             <h4>Platos a la carta</h4>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-            <a href="#" class="btn">VER CATALAGO</a>                    
+            <a href="carta/platoalacarta.php" class="btn">VER CATALAGO</a>                    
         </div>
         <div class="card">
             <img src="img/plato03.jpg" alt="">
             <h4>Caldos</h4>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-            <a href="#" class="btn">VER CATALAGO</a>                    
+            <a href="carta/caldos.php" class="btn">VER CATALAGO</a>                    
         </div>
         <div class="card">
             <img src="img/plato03.jpg" alt="">
