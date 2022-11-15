@@ -33,7 +33,7 @@
                                 <li><a href="carta/platoalacarta.php">Platos a la carta</a></li>
                                 <li><a href="carta/caldos.php">Caldos</a></li>
                                 <li><a href="carta/bebidas.php">Bebidas</a></li>
-                                <li><a href="carta/postres.html">Postres</a></li>
+                                <li><a href="carta/postres.php">Postres</a></li>
 
                             </ul>
                         </li>
@@ -103,14 +103,14 @@
             <h4>Bebidas</h4>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-            <a href="carta/bebidas.html" class="btn">VER CATALAGO</a>                    
+            <a href="carta/bebidas.php" class="btn">VER CATALAGO</a>                    
         </div>
         <div class="card">
             <img src="img/plato03.jpg" alt="">
             <h4>Postres</h4>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
             <p>Lorem ipsum, colorLorem ipsum, colorLorem ipsum, color</p>
-            <a href="#" class="btn">VER CATALAGO</a>                    
+            <a href="carta/postres.php" class="btn">VER CATALAGO</a>                    
         </div>
         
         

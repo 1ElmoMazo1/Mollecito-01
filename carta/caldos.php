@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
        
         <title>"El Mollecito"</title>
-        <link rel="stylesheet" href="css/styleprincipal.css">
-        <link rel="stylesheet" href="css/cardstyle.css">
+        <link rel="stylesheet" href="../css/styleprincipal.css">
+        <link rel="stylesheet" href="../css/cardstyle.css">
     </head>
     <body>
        
@@ -31,7 +31,7 @@
                                 <li><a href="platoalacarta.php">Platos a la carta</a></li>
                                 <li><a href="caldos.php">Caldos</a></li>
                                 <li><a href="bebidas.php">Bebidas</a></li>
-                                <li><a href="postres.html">Postres</a></li>
+                                <li><a href="postres.php">Postres</a></li>
 
                             </ul>
                         </li>

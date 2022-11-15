@@ -86,7 +86,7 @@ if(isset($_GET["action"]))
 							   <li><a href="../carta/platoalacarta.php">Platos a la carta</a></li>
 							   <li><a href="../carta/caldos.php">Caldos</a></li>
 							   <li><a href="../carta/bebidas.php">Bebidas</a></li>
-							   <li><a href="../carta/postres.html">Postres</a></li>
+							   <li><a href="../carta/postres.php">Postres</a></li>
 
 						   </ul>
 					   </li>

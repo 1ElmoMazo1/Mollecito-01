@@ -31,7 +31,7 @@
                                 <li><a href="platoalacarta.php">Platos a la carta</a></li>
                                 <li><a href="caldos.php">Caldos</a></li>
                                 <li><a href="bebidas.php">Bebidas</a></li>
-                                <li><a href="postres.html">Postres</a></li>
+                                <li><a href="postres.php">Postres</a></li>
 
                             </ul>
                         </li>

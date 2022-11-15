@@ -31,7 +31,7 @@
                                 <li><a href="platoalacarta.php">Platos a la carta</a></li>
                                 <li><a href="caldos.php">Caldos</a></li>
                                 <li><a href="bebidas.php">Bebidas</a></li>
-                                <li><a href="postres.html">Postres</a></li>
+                                <li><a href="postres.php">Postres</a></li>
 
                             </ul>
                         </li>
@@ -158,46 +158,7 @@ if(isset($_GET["action"]))
 			?>
 			<div style="clear:both"></div>
 			<br />
-			<h3>Detalles de la orden</h3>
-			<div class="table-responsive">
-				<table class="table table-bordered">
-					<tr>
-						<th width="40%">Nombre del producto</th>
-						<th width="10%">Cantidad</th>
-						<th width="20%">Precio</th>
-						<th width="15%">Total</th>
-						<th width="5%">Accion</th>
-					</tr>
-					<?php
-					if(!empty($_SESSION["shopping_cart"]))
-					{
-						$total = 0;
-						foreach($_SESSION["shopping_cart"] as $keys => $values)
-						{
-					?>
-					<tr>
-						<td><?php echo $values["item_name"]; ?></td>
-						<td><?php echo $values["item_quantity"]; ?></td>
-						<td>$ <?php echo $values["item_price"]; ?></td>
-						<td>$ <?php echo number_format($values["item_quantity"] * $values["item_price"], 2);?></td>
-						<td><a href="platodeentrada.php?action=delete&id=<?php echo $values["item_id"]; ?>"><span class="text-danger">Eliminar</span></a></td>
-					</tr>
-					<?php
-							$total = $total + ($values["item_quantity"] * $values["item_price"]);
-						}
-					?>
-					<tr>
-						<td colspan="3" align="right">Total</td>
-						<td align="right">S/ <?php echo number_format($total, 2); ?></td>
-						<td></td>
-					</tr>
-					<?php
-					}
-					?>
-						
-				</table>
 			
-		</div>
 	</div>
 	<br />
 	</body>
