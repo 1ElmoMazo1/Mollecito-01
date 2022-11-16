@@ -34,11 +34,11 @@
                 
                 <input class="input" name="nombre" type="text" placeholder="Nombres" >
                 <input class="input" name="apellido" type="text" placeholder="Apellidos" >
-                <input class="input" name="clave" type="password" placeholder="Contraseña" >
+                <!--<input class="input" name="clave" type="password" placeholder="Contraseña" >-->
                 
                 <input type="submit" name="registro" class="btn" value="Ingresar">
                 
-                <p>Ingresar como ADMIN <span class="span">Ingresar</span></p>
+                <p>Ingresar como ADMIN <span class="span"><a href="admin/index.php">Ingresar</a></span></p>
             </form>
           </div>
             <img class="image-container" src="img/mollelogo.jpeg" alt="">
