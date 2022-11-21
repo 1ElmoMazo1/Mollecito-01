@@ -41,6 +41,13 @@
                         <li><a href="#">Favoritos</a></li>
                         <li><a href="#">Sugerencias</a></li>
                         <li><a href="#">Contactos</a></li>
+                        
+                        
+                        
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="index.php">Salir</a></li>
                     </ul>
 
                 </nav>

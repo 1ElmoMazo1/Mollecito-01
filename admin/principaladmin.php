@@ -19,7 +19,7 @@
             <li><a href="#"><i class="fas fa-project-diagram"></i>portfolio</a></li>
             <li><a href="#"><i class="fas fa-blog"></i>Blogs</a></li>
             <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
-            <li><a href="#"><i class="fas fa-map-pin"></i>Map</a></li>
+            <li><a href="index.php"><i class="fas fa-map-pin"></i>Salir</a></li>
         </ul> 
         <div class="social_media">
           <a href="#"><i class="fab fa-facebook-f"></i></a>
