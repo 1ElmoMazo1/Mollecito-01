@@ -5,9 +5,12 @@
     box-sizing: border-box;
     font-family: 'Roboto Condensed', sans-serif;
     text-decoration: none;
+
+    
 }
 body{
-    background: #008145;
+    
+    background: #2a4136;
     background-color: #b2dba3;
 }
 h1 {

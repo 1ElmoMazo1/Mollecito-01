@@ -13,10 +13,10 @@
     <div class="sidebar">
         <h2>Maymanta S.R.L</h2>
         <ul>
-            <li><a href="home.php"><i class="fas fa-home"></i>Home</a></li>
+            <li><a href="principaladmin.php"><i class="fas fa-home"></i>Home</a></li>
             <li><a href="usuario.php"><i class="fas fa-user"></i>Usuarios</a></li>
-            <li><a href="#"><i class="fas fa-address-card"></i>About</a></li>
-            <li><a href="#"><i class="fas fa-project-diagram"></i>portfolio</a></li>
+            <li><a href="productos.php"><i class="fas fa-address-card"></i>Productos</a></li>
+            <li><a href="#"><i class="fas fa-project-diagram"></i>Asistencia</a></li>
             <li><a href="#"><i class="fas fa-blog"></i>Blogs</a></li>
             <li><a href="#"><i class="fas fa-address-book"></i>Contact</a></li>
             <li><a href="index.php"><i class="fas fa-map-pin"></i>Salir</a></li>

@@ -131,13 +131,16 @@ if(isset($_GET["action"]))
 				?>
 			<div class="col-md-4">
 				<form method="post" action="especialidaddelacasa.php?action=add&id=<?php echo $row["id"]; ?>">
-					<div style="border:1px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px;" align="center">
+					<div style="border:3px solid #333; background-color:#f1f1f1; border-radius:5px; padding:16px; box-shadow:
+       inset 0 -3em 3em rgba(0,0,0,0.1),
+             0 0  0 2px rgb(255,255,255),
+             0.3em 0.3em 1em rgba(0,0,0,0.3);" align="center">
 						<img src="images/<?php echo $row["image"]; ?>" class="img-responsive" /><br />
 
 						<h4 class="text-info"><?php echo $row["name"]; ?></h4>
 
 						<h4 class="text-danger">Precio S/<?php echo $row["price"]; ?></h4>
-
+						<h4 class="text-info"><?php echo$row["descripcion"]?></h4>
 						<input type="text" name="quantity" value="1" class="form-control" />
 
 						<input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>" />
