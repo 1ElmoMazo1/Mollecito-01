@@ -39,6 +39,11 @@
                         <li><a href="#">Favoritos</a></li>
                         <li><a href="#">Sugerencias</a></li>
                         <li><a href="#">Contactos</a></li>
+
+						<li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="../index.php">Salir</a></li>
                     </ul>
 
                 </nav>
@@ -112,15 +117,11 @@ if(isset($_GET["action"]))
 		<link rel="stylesheet" href="../css/styleprincipal.css">
 	</head>
 	
-	<body>
-		<br />
+	<body>	
 		<div class="container">
-			<br />
-			<br />
-			<br />
-			<br />
-            <h1 style="text-align: center">Plato a la carta</h1>
-			<br />
+            <h1 style="text-align: center">Caldos</h1>
+			<br>
+
 			<?php
 				$query = "SELECT * FROM caldos ORDER BY id ASC";
 				$result = mysqli_query($connect, $query);
@@ -135,12 +136,12 @@ if(isset($_GET["action"]))
        inset 0 -3em 3em rgba(0,0,0,0.1),
              0 0  0 2px rgb(255,255,255),
              0.3em 0.3em 1em rgba(0,0,0,0.3);" align="center">
-						<img src="images/<?php echo $row["image"]; ?>" class="img-responsive" /><br />
+						<img src="images/<?php echo $row["image"]; ?>" class="img-responsive" />
 
 						<h4 class="text-info"><?php echo $row["name"]; ?></h4>
 
 						<h4 class="text-danger">Precio S/<?php echo $row["price"]; ?></h4>
-						<h4 class="text-info"><?php echo$row["descripcion"]?></h4>
+						
 						<input type="text" name="quantity" value="1" class="form-control" />
 
 						<input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>" />

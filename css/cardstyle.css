@@ -11,7 +11,7 @@ body{
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background: url(css/back.svg);
+    background: url(../img/bebidas/back.svg);
 }
 .blog-card{
     position: absolute;
@@ -20,7 +20,7 @@ body{
     max-width: 850px;
     border-radius: 25px;
     margin: auto;
-    background: #64b247;
+    background: #fff;
     box-shadow: 0px 10px 50px rgba(252, 56, 56, .3);
 
 }

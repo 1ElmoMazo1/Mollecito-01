@@ -163,7 +163,8 @@ if(isset($_GET["action"]))
 					?>
 						
 				</table>
-			
+			<button type="submit" style="	background: #ffff
+											padding: 20px">GENERAR CODIGO (QR)</button>
 		</div>
 	</div>
 	<br />

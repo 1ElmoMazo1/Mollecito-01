@@ -39,6 +39,11 @@
                         <li><a href="#">Favoritos</a></li>
                         <li><a href="#">Sugerencias</a></li>
                         <li><a href="#">Contactos</a></li>
+
+						<li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="../index.php">Salir</a></li>
                     </ul>
 
                 </nav>
@@ -119,7 +124,7 @@ if(isset($_GET["action"]))
 			<br />
 			<br />
 			<br />
-            <h1 style="text-align: center">Plato a la carta</h1>
+            <h1 style="text-align: center">Platos a la carta</h1>
 			<br />
 			<?php
 				$query = "SELECT * FROM carta ORDER BY id ASC";

@@ -11,8 +11,8 @@ th, td{
 }
 
 thead{
-	background-color: #246355;
-	border-bottom: solid 5px #27aa8b;
+	background-color: #ac4889;
+	border-bottom: solid 5px #ac4889;
 	color: white;
 }
 
@@ -21,6 +21,6 @@ tr:nth-child(even){
 }
 
 tr:hover td{
-	background-color: #369681;
+	background-color: #ac4889;
 	color: white;
 }

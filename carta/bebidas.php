@@ -39,6 +39,11 @@
                         <li><a href="#">Favoritos</a></li>
                         <li><a href="#">Sugerencias</a></li>
                         <li><a href="#">Contactos</a></li>
+
+						<li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="../index.php">Salir</a></li>
                     </ul>
 
                 </nav>
@@ -206,7 +211,7 @@ if(isset($_GET["action"]))
 						<h4 class="text-info"><?php echo $row["name"]; ?></h4>
 
 						<h4 class="text-danger">Precio S/<?php echo $row["price"]; ?></h4>
-						<h4 class="text-info"><?php echo$row["descripcion"]?></h4>
+				
 						<input type="text" name="quantity" value="1" class="form-control" />
 
 						<input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>" />

@@ -68,7 +68,7 @@ body{
 .wrapper .sidebar .social_media a{
   display: block;
   width: 40px;
-  background: #07ee41;
+  background: #a8c917;
   height: 40px;
   line-height: 45px;
   text-align: center;
@@ -98,4 +98,16 @@ body{
 
 .wrapper .main_content .info div{
   margin-bottom: 20px;
+}
+.boton{
+  padding: 15px;
+  background: #ffff;
+  justify-content: center;
+  font-size: 1.2em;
+  
+  text-align: center;
+  border-radius: 20px;
+  width: 150px; /* Para que no se rompa en dos líneas, y lo translade tal cual. */
+  margin-left: 50%;
+  transform: translateX(-50%);
 }

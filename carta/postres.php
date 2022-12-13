@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width,initial-scale=1.0">
        
         <title>"El Mollecito"</title>
-        <link rel="stylesheet" href="css/styleprincipal.css">
-        <link rel="stylesheet" href="css/cardstyle.css">
+        <link rel="stylesheet" href="../css/styleprincipal.css">
+        <link rel="stylesheet" href="../css/cardstyle.css">
     </head>
     <body>
        
@@ -39,6 +39,11 @@
                         <li><a href="#">Favoritos</a></li>
                         <li><a href="#">Sugerencias</a></li>
                         <li><a href="#">Contactos</a></li>
+
+						<li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li><a href="#"><br></a></li><li>
+                        <li><a href="../index.php">Salir</a></li>
                     </ul>
 
                 </nav>
@@ -105,7 +110,6 @@ if(isset($_GET["action"]))
 <!DOCTYPE html>
 <html>
 	<head>
-		
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
@@ -119,6 +123,34 @@ if(isset($_GET["action"]))
 			<br />
 			<br />
 			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			
 			<h1 style="text-align: center">Postres</h1>
 			<br />
 			
@@ -141,7 +173,7 @@ if(isset($_GET["action"]))
 						<h4 class="text-info"><?php echo $row["name"]; ?></h4>
 
 						<h4 class="text-danger">Precio S/<?php echo $row["price"]; ?></h4>
-						<h4 class="text-info"><?php echo$row["descripcion"]?></h4>
+						
 						<input type="text" name="quantity" value="1" class="form-control" />
 
 						<input type="hidden" name="hidden_name" value="<?php echo $row["name"]; ?>" />
@@ -166,19 +198,5 @@ if(isset($_GET["action"]))
 	<br />
 	</body>
 </html>
-
-<?php
-//If you have use Older PHP Version, Please Uncomment this function for removing error 
-
-/*function array_column($array, $column_name)
-{
-	$output = array();
-	foreach($array as $keys => $values)
-	{
-		$output[] = $values[$column_name];
-	}
-	return $output;
-}*/
-?>
 </frame>
 </html>
